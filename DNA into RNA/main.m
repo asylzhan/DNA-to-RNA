@@ -8,10 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+        
+        NSString *dna = @"GATGGAACTTGACTACGTAAATT";
+        dna = [dna stringByReplacingOccurrencesOfString:@"T" withString:@"U"];
+        NSLog(@"%@", dna);
+       
+
+    
     return 0;
+        
+    }
 }
