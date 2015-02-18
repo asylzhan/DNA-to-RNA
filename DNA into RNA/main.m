@@ -12,14 +12,9 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
         NSString *dna = @"GATGGAACTTGACTACGTAAATT";
         dna = [dna stringByReplacingOccurrencesOfString:@"T" withString:@"U"];
         NSLog(@"%@", dna);
-       
-
-    
-    return 0;
-        
+        return 0;
     }
 }
